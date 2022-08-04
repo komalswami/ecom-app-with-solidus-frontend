@@ -1,0 +1,14 @@
+.footer {
+  background: $color-copy-lighter;
+  color: $color-copy-light;
+  font-size: $font-size-small;
+  margin-top: 4rem;
+  padding: 3rem 2rem;
+  text-align: center;
+
+  a {
+    &:hover {
+      color: lighten($color-copy, 30%);
+    }
+  }
+}
