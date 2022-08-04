@@ -1,24 +1,11 @@
-# README
+Getting started
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+rails new store --skip-javascript
+cd store
 
-Things you may want to cover:
+bundle add solidus_core solidus_backend solidus_api solidus_sample
 
-* Ruby version
+bin/rails generate solidus:install --auto-accept
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+LOCATION="https://raw.githubusercontent.com/solidusio/solidus_starter_frontend/master/template.rb" \
+ bin/rails app:template
