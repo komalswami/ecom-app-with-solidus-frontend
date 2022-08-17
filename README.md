@@ -1,4 +1,6 @@
-Getting started
+## Getting started
+
+### ecom-app-with-solidus-frontend
 
 rails new store --skip-javascript
 cd store
