@@ -17,15 +17,14 @@
     }
 
     img {
-      width: 150px;
+      width: 100px;
     }
   }
 
   &__search {
     flex: 0 0 100%;
     margin-top: 10px;
-    order: 4;
-
+    
     @include desktop {
       flex: 1 0 auto;
       margin: 0 2rem;
@@ -34,13 +33,10 @@
   }
 
   .auth-link {
-    order: 2;
-  }
-
-  .quatation-link {
-    margin: 0 2rem;
     order: 3;
   }
+
+
   .cart-link {
     order: 4;
   }
